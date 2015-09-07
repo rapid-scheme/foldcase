@@ -1,0 +1,26 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"npm",
+				"test"
+			],
+			"name": "npm test",
+			"working_dir": "${project_path}"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "src"
+		},
+		{
+			"path": "test"
+		},
+		{
+			"path": "bin"
+		}
+	]
+}
