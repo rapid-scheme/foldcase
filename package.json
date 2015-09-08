@@ -12,7 +12,7 @@
   "scripts": {
     "traceur": "traceur --modules commonjs --dir src lib",
     "build": "bin/build.sh",
-    "prepublish": "build && npm run traceur",
+    "prepublish": "npm run build && npm run traceur",
     "test": "mocha --ui tdd --compilers js:mocha-traceur"
   },
   "devDependencies": {
